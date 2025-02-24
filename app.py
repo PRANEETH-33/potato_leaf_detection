@@ -7,9 +7,9 @@ import time
 import gdown
 import os
 
-file_id= "1jNBW9Fd3H40cdBOMK75LGgwq3fzVG0mF"
-url = 'https://drive.google.com/file/d/1jNBW9Fd3H40cdBOMK75LGgwq3fzVG0mF/view?usp=sharing'
-model_path="trained_plant_disease_model.keras"    
+file_id = "1_9Q28QeJXnyRCH18IVxpX5KhuDtZC40c"
+url = 'https://drive.google.com/uc?id=1_9Q28QeJXnyRCH18IVxpX5KhuDtZC40c'
+model_path = "trained_plant_disease_model.keras"
 
 if not os.path.exists(model_path):
     st.warning("Downloading model from Google Drive...")
